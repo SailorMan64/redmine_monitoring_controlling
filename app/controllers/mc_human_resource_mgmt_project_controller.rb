@@ -1,5 +1,5 @@
 class McHumanResourceMgmtProjectController < ApplicationController
-  unloadable
+# Rem'ed out for Redmine 6:  unloadable
 
   layout 'base'
   before_action :find_project, :authorize
